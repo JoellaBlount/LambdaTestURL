@@ -1,7 +1,7 @@
 var configFile = require('./config');
 const axios = require('axios');
 //Your LambdaTest username
-const username = "Joella.Blount";
+const username = "joella.blount";
 //Your LambdaTest accessToken
 const accessToken = "LT  --user joella.blount@vitalyst.com --key or1K1B4Ip8LZeDVsiNIHWStu86LiNEgNkOQmSRpGF0NfZVop7b";
 axios.defaults.baseURL = 'https://api.lambdatest.com/screenshots/v1';
