@@ -3,7 +3,7 @@ const axios = require('axios');
 //Your LambdaTest username
 const username = "joella.blount";
 //Your LambdaTest accessToken
-const accessToken = "LT  --user joella.blount@vitalyst.com --key or1K1B4Ip8LZeDVsiNIHWStu86LiNEgNkOQmSRpGF0NfZVop7b";
+const accessToken = "or1K1B4Ip8LZeDVsiNIHWStu86LiNEgNkOQmSRpGF0NfZVop7b";
 axios.defaults.baseURL = 'https://api.lambdatest.com/screenshots/v1';
 axios.defaults.headers.common['Authorization'] = "Basic " + Buffer.from(username + ":" + accessToken).toString('base64');
 axios.defaults.headers.common['Content-Type'] = 'application/json';
