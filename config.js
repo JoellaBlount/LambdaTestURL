@@ -4,7 +4,7 @@ module.exports = {
      BrowserConfigurations: {
         "windows 10": {
           "edge": [
-            "87",
+            "89",
           ],
           "chrome": [
             "76",
